@@ -28,17 +28,5 @@ Project Management provides the integration layer across the technical and opera
 **Current Phase:** Initiation & Problem Understanding
 **Next Focus:** Detailed planning, analysis coordination and solution-design readiness
 
-### Project Structure
-
-```text
-HealthConnect/
-├── Project Charter/
-├── Scope & WBS/
-├── Stakeholder Management/
-├── Risk & Dependency Management/
-├── Communication Management/
-├── Project Summary/
-└── Supporting Documentation/
-```
 
 > This repository documents the project management framework and progressive development of the HealthConnect Clinic Experience Lab.
