@@ -2,141 +2,146 @@
 
 ### Improving Patient Appointment Attendance and Healthcare Support Using Data & AI
 
-HealthConnect is a multidisciplinary healthcare project focused on improving **patient appointment attendance and healthcare support** through the responsible application of data, predictive intelligence and Generative AI.
+HealthConnect is a multidisciplinary healthcare project focused on improving **patient appointment attendance and healthcare support** through the responsible use of data, predictive intelligence and Generative AI.
 
-The project addresses two connected operational challenges: understanding the factors associated with missed appointments and improving how patients receive routine appointment-related support.
+The project addresses two connected challenges: understanding patterns associated with missed appointments and improving routine patient support.
 
-The objective is not simply to introduce AI, but to connect **evidence, intervention and operational adoption** into a measurable improvement cycle.
-
-**Business Need → Patient Need → Evidence → Solution → Operational Adoption → Measurable Value**
+> **Business Need → Evidence → Decision → Intervention → Adoption → Measurable Value**
 
 ---
 
-## Project Delivery Structure
+## Project Architecture
 
-HealthConnect brings together eight complementary workstreams:
+HealthConnect is delivered through four technical workstreams, coordinated through Project Management.
 
-| Workstream                            | Primary Focus                                                       |
-| ------------------------------------- | ------------------------------------------------------------------- |
-| **Project Management**                | Integration, dependencies, risks, coordination and delivery control |
-| **Data & Analytics**                  | Data preparation, analysis, KPIs and evidence generation            |
-| **Predictive Intelligence**           | No-show modelling and predictive insight                            |
-| **Patient Engagement**                | Attendance interventions and patient-facing strategies              |
-| **Generative AI Support**             | Routine enquiry support, boundaries and escalation                  |
-| **Process & Operational Integration** | Alignment with clinic workflows                                     |
-| **Testing & Validation**              | Output, workflow and solution validation                            |
-| **Implementation & Adoption**         | Operational readiness and uptake                                    |
+| Workstream           | Focus                                                                 |
+| -------------------- | --------------------------------------------------------------------- |
+| **Data Analytics**   | Data preparation, KPIs, analytical validation and evidence generation |
+| **Data Science**     | Predictive modelling, feature development and model evaluation        |
+| **Machine Learning** | Model implementation, scoring and technical integration               |
+| **Generative AI**    | Patient support, behavioural testing, safety and escalation           |
 
-Project Management operates across these interfaces to maintain alignment between **outputs, dependencies, decisions and downstream readiness**.
+**Project Management** operates across the workstreams, controlling scope, milestones, dependencies, risks, issues, decisions, handoffs and downstream readiness.
+
+The project follows a **controlled-parallel, dependency-driven delivery model** rather than a strictly sequential workflow.
 
 ---
 
-## Week 4 — Establishing the Foundation
+## Delivery Logic
 
-Week 4 established the project's initial management and delivery baseline.
+**Data Foundation → Attendance Evidence → Predictive Intelligence → Technical Integration → Integrated Workflow → Testing & Refinement → Solution Validation**
 
-### Key outputs
+For material cross-workstream outputs:
+
+> **Produce → Check → Transfer → Integrate → Verify → Accept**
+
+This distinction is central to the project:
+
+**Completed ≠ Integrated ≠ Validated ≠ Operationally Ready**
+
+---
+
+## Delivery Progression
+
+### Week 4 — Foundation
+
+Established the project baseline through:
 
 * Project Charter
-* Scope Definition
-* Work Breakdown Structure (WBS)
+* Scope & WBS
 * Stakeholder Register
-* Initial Risk & Dependency Register
-* Communication Management Approach
-* High-Level Delivery Roadmap
+* Risk & Dependency Register
+* Communication Approach
+* High-Level Project Timeline
 
-The emphasis at this stage was on defining **what the project is solving, what is within scope, who is involved, how the work is structured and how delivery will be governed**.
+### Week 5 — Controlled Execution
+
+Moved from planning into structured execution through:
+
+* Task & progress tracking
+* Updated project timeline
+* Dependency and risk controls
+* Cross-workstream coordination
+* Issue and decision management
+* Project status reporting
+
+### Week 6 — Integration & Validation Preparation
+
+The project progressed from individual workstream development toward evidence-backed integration.
+
+**Data Analytics** strengthened attendance evidence through deeper statistical analysis.
+
+**Data Science** advanced binary no-show prediction development, with comparative model evaluation and final candidate selection remaining outstanding.
+
+**Machine Learning** progressed to batch scoring and integration testing; the technical pathway was demonstrated using a stand-in estimator pending the actual DS candidate.
+
+**Generative AI** underwent targeted behavioural testing, identifying an emergency-disclaimer inconsistency requiring refinement and retesting.
 
 ---
 
-## Week 5 — Moving Into Controlled Execution
+## Emerging Evidence
 
-Week 5 marked the transition from **project structure to active execution**.
-
-The Project Management track translated the established project structure into task-level controls while coordinating emerging dependencies between specialist workstreams.
-
-### Week 5 delivery controls
-
-* **Project Task Tracker** — 21 actionable activities with ownership, priority, dependencies, status, RAG condition and next actions.
-* **Execution & Progress Plan** — defined execution sequencing, progress monitoring and dependency control.
-* **Updated Project Timeline** — maintained visibility of the current delivery position.
-* **Track Coordination Plan** — established controls for workstream interfaces, handoffs and cross-track decisions.
-* **Major Project Issues Summary** — captured significant execution and coordination issues requiring management attention.
-* **Cross-Track Collaboration Record** — documented interaction with Data Analytics and the resulting project-level considerations.
-* **Week 5 Project Summary** — consolidated the current execution position, evidence, decisions and transition priorities.
-
----
-
-## Emerging Analytical Evidence
-
-The Data Analytics track established an initial evidence base through data preparation and validation, exploratory analysis, KPI development and dashboard reporting.
-
-The analysis reported a **48.46% overall no-show rate** and identified observable patterns relating to:
+The project established an initial **48.46% no-show rate** as a baseline, with observed patterns around:
 
 * previous no-show history;
-* appointment timing;
-* reminder channels; and
-* patient distance.
+* appointment lead time;
+* patient distance; and
+* selected patient and appointment characteristics.
 
-A notable observation was the **77% no-show rate within the 30–40 km group receiving reminders**. Rather than treating this as proof of reminder ineffectiveness, the observation has been flagged for further analysis alongside patient behaviour and other relevant variables.
+A notable 30–40 km distance pattern has been retained as an analytical finding for further investigation—not as evidence of causality or reminder ineffectiveness.
 
-**No-Show Rate** and **Show Rate** have been identified as practical baseline measures for evaluating post-intervention change.
-
-This establishes an initial link between the project's **analytical evidence and future intervention measurement**.
+**No-Show Rate** and **Show Rate** remain the principal baseline measures for subsequent intervention assessment.
 
 ---
 
-## Execution & Coordination Approach
+## Integration Position
 
-HealthConnect is being managed through a **controlled-parallel delivery model**.
+Current material interfaces include:
 
-Workstreams are not required to progress as one strictly sequential chain. Activities may proceed independently where prerequisites are satisfied, while dependent activities remain controlled by their required upstream inputs.
+**Data Analytics → Data Science**
+Validated findings and features supporting predictive development.
 
-A key project-control principle is:
+**Data Science → Machine Learning**
+Actual candidate-model transfer and integration remain outstanding.
 
-**Activity Completed ≠ Output Ready**
+**Machine Learning → Integrated Workflow**
+Technical scoring capability established; operational integration remains downstream.
 
-Where an output supports another workstream, the project considers:
+**Generative AI → Solution**
+Behavioural refinement and safety testing continue before broader integration.
 
-**Produce → Quality Check → Transfer → Validate → Accept → Enable Downstream Work**
-
-This provides greater control over the movement of information and outputs across workstream boundaries.
+The project therefore treats **handoff evidence and resulting downstream use** as the basis for integration—not communication alone.
 
 ---
 
 ## Current Position
 
-**Status:** 🟠 **AMBER — Controlled Execution**
-**Phase:** **Solution Development & Implementation**
-**Current Gate:** **G3 — Data Readiness**
-**Current Focus:** Analytical validation, cross-track coordination and downstream readiness
-**Baseline Measures:** **No-Show Rate & Show Rate**
+### 🟠 AMBER — CONTROLLED INTEGRATION
 
-The project has progressed from establishing its management foundation to developing an **evidence-informed execution position**.
+| Control               | Position                                                   |
+| --------------------- | ---------------------------------------------------------- |
+| **Phase**             | Integration, Advanced Development & Validation Preparation |
+| **Controlling Gate**  | G3 — Data Readiness                                        |
+| **Next Gate**         | G4 — Insight Validation                                    |
+| **Next Horizon**      | Week 7 Testing & Refinement                                |
+| **Baseline Measures** | No-Show Rate & Show Rate                                   |
 
-The immediate priority is to strengthen validation of emerging findings, maintain visibility of workstream dependencies and progressively move reliable outputs into downstream solution development.
-
----
-
-## What Comes Next
-
-The next delivery stage will focus on:
-
-* deeper validation of attendance and no-show patterns;
-* progression of predictive intelligence;
-* refinement of patient-engagement interventions;
-* Generative AI requirements, boundaries and escalation logic;
-* process and operational integration;
-* cross-workstream handoffs and readiness;
-* testing and validation preparation; and
-* measurement of intervention outcomes against the established baseline.
+The immediate priorities are **predictive candidate selection, DS→ML integration, downstream analytical traceability, ML readiness and Generative AI refinement**.
 
 ---
 
-## Project Management Perspective
+## Week 7 — Testing & Refinement
 
-The project is being managed around a simple principle:
+The next stage follows:
 
-> **Progress is not only measured by work completed, but by whether the right output is available, reliable and ready for the next decision or activity.**
+> **Test → Refine → Retest → Accept → Determine Readiness**
 
-This repository documents the progressive development of the **HealthConnect Clinic Experience Lab**, including its project-management framework, execution controls, cross-workstream coordination and evidence-informed progression toward an integrated healthcare solution.
+Focus areas include predictive evaluation, actual DS→ML integration, ML verification, Generative AI regression testing, cross-workstream interface testing and acceptance assessment.
+
+---
+
+## Project Management Principle
+
+> **Progress is not measured only by what has been completed, but by what is reliable, integrated and ready to support the next project decision or stage.**
+
+This repository documents the development of the **HealthConnect Clinic Experience Lab** from project foundation through analytical validation, predictive development, technical integration and preparation for solution testing.
